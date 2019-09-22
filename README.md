@@ -1,2 +1,0 @@
-# vck.github.io
-blog
