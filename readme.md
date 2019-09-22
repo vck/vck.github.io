@@ -1,3 +1,3 @@
 # site
 
-drepram's site, licensed under MIT.
+inspired by https://github.com/drepram's site
