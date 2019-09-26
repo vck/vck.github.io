@@ -8,11 +8,22 @@
         content=".">
     <meta name="author" content="Vicky Dasta">
     <title>Vicky Dasta</title>
-    <link rel="stylesheet" href="./assets/bulma.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/bulma/css/bulma.css">
     <link rel="stylesheet" href="./assets/style.css">
     
-    <link rel="icon" href="assets/favicon.ico">
+    <link rel="icon" href="assets/favicon.png">
     <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122570966-1""></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-122570966-1');
+    </script>
 </head>
 
 <body>
@@ -21,13 +32,12 @@
             <p class="subtitle is-3"><strong>Vicky Dasta</strong></p>
             
                 <nav class="navbar" class="has-text-centered">
-                    <a class="navbar-item" href="/">Homepage</a>
-                    <a class="navbar-item" href="/blog/index.html">blog</a>
-                    <a class="navbar-item" href="/cv.pdf">cv</a>
+                    <a class="navbar-item" href="#">blog</a>
+                    <a class="navbar-item" href="#">cv</a>
                     <a class="navbar-item" target="_blank" href="https://github.com/vck">github</a>
-                    <a class="navbar-item" href="portofolio.html">portofolio</a>
-                    <a class="navbar-item" href="research.html">research</a>
-                    <a class="navbar-item" href="services.html">services</a>
+                    <a class="navbar-item" href="/portofolio.html">portofolio</a>
+                    <a class="navbar-item" href="/research.html">research</a>
+                    <a class="navbar-item" href="/services.html">services</a>
                 </nav>
                 <br>
             <p class="subtitle" align="left">I defined myself as a hybrid of Physicist in mind and software engineer at work. I currently lives in Pekanbaru, Indonesia. I mostly work on image processing, integrating laser with camera to make cool stuff. </p>
@@ -37,5 +47,4 @@
     </div>
 </body>
 
-</blogml>
-
+</html>
